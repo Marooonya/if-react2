@@ -1,0 +1,49 @@
+.home {
+  background-color: #eaf0f9;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1267px;
+  margin: 0 auto;
+  padding: 120px 16px;
+  position: relative;
+}
+
+.home__title {
+  color: #383838;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 114px;
+  width: 100%;
+  height: 40px;
+}
+
+.home__advantages {
+  display: flex;
+  width: 2472px;
+  gap: 16px;
+  font-size: 24px;
+}
+
+.home__advantages--item {
+  width: 25%;
+}
+
+.home__advantages--img-wrapper img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.apartments {
+  color: var(--accent-blue);
+  margin-bottom: 26px;
+  width: 100%;
+}
+
+.apartments-location {
+  color: #a2a2a2;
+}

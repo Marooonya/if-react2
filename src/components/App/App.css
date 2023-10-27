@@ -1,0 +1,16 @@
+/*@import url('src/assets/fonts');*/
+
+:root {
+  --text-color: #383838;
+  --general-white: #ffffff;
+  --accent-yellow: #f5bd41;
+  --accent-blue: #3077c6;
+  --general-blue: #10367c;
+  --colum-width: 100%;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}

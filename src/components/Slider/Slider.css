@@ -1,0 +1,49 @@
+.slider-container {
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  transition: all ease 1s;
+}
+
+.button-next {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  z-index: 1;
+}
+
+.button-prev {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  z-index: 1;
+}
+
+.circle-for-desktop {
+  background-color: #f3f3f4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 93%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow-for-desktop {
+  width: 40px;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.arrow-js {
+  margin-top: 2px;
+  margin-left: -2px;
+  transform: rotate(180deg);
+}
